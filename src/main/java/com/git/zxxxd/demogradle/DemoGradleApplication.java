@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class DemoGradleApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DemoGradleApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(DemoGradleApplication.class, args);
+    }
 
     @RequestMapping("/")
-  public String hello() {
-      return "Hello World!";
-  }
+    public String hello() {
+        return "Hello World!";
+    }
 
 }
